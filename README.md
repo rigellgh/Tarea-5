@@ -30,4 +30,4 @@ Mini API para registro de usuarios con validaciones en el servidor y visualizaci
 ## Ejecución
 1. `npm install`
 2. `node server.js`
-3. Abrir http://localhost:3000
+3. Abrir http://localhost:4000
