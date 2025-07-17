@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Usuarios</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+    form { display: grid; gap: 15px; }
+    input, button { padding: 10px; }
+    #resultado { margin-top: 20px; padding: 15px; background: #f0f0f0; }
+    #historial { margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <h1>Registro de Usuarios</h1>
+  <form id="registroForm">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="number" id="edad" placeholder="Edad" required min="1">
+    <input type="text" id="ciudad" placeholder="Ciudad" required>
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <div id="resultado"></div>
+  
+  <div id="historial">
+    <h2>Últimos registros:</h2>
+    <ul id="listaRegistros"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
